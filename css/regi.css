@@ -1,0 +1,72 @@
+@charset "utf-8";
+.head .bg{background: #fff;-webkit-filter:none; }
+.head a:hover,.headLeft li.hover a{color:#00a1d6;}
+.left{float: left;display: inline;}
+.right{float:right;display: inline;}
+/*regi top部分*/
+.regiTop,.signTop{margin-top:-2px;height:106px;background:#fff url("../img/regi-top-bg.png") repeat-x 0 0;}
+.regiTopCnt,.signTopCnt{width: 980px;height:100%;margin:0 auto;background: url("../img/regi-top.png") no-repeat center 0;}
+/*regi注册表单*/
+.regiCnt,.signCnt{position:relative;width: 980px;margin:0 auto;}
+.regiCnt .rcLine,.signCnt .rcLine{position: absolute;left:0;top:25px;width: 100%;height:2px;background: #f1f1f1;}
+.regiCnt .title,.signCnt .title{position:relative;width:100px;height:50px;margin:0 auto;background:#fff url("../img/regi-tit.png") no-repeat center 0;text-indent: -100px;overflow: hidden;*zoom:1;}
+.signCnt .title{background: #fff url("../img/sign-tit.png") no-repeat center 0;}
+
+.regiForm{width:415px;margin:0 auto;}
+.regiForm .regiInput,.signForm .signInput{position:relative;margin-top:40px;*zoom:1;}
+.regiForm .regiInput.regiPhonetxt,.signForm .signInput.signtxt{margin-top:10px;}
+.regiForm .regiInput input,.regiForm .regiPhone select,.signForm .signInput input{display:block;width:395px;height:40px;line-height:40px;padding:0 10px;border:1px solid #eee;border-radius: 4px;color:#a5a5a5;}
+.regiForm .regiPhone select{float: left;display: inline;width:89px;padding:0 2px;}
+.regiForm .regiPhone input{float: left;display: inline;width:299px;margin-left:5px;}
+.regiForm .regiPhoneBtn{position:absolute;right:0px;top:2px;width:130px;height:38px;line-height: 38px;border-radius:4px;background:#00a1d6;text-align: center;color:#fff;}
+
+.regiForm .regiProto,.signForm .signProto{margin-top:20px;font-size:12px;}
+.regiForm .regiProto input,.signForm .signProto input{float:left;display:inline;margin-top:3px;vertical-align: middle;}
+.regiForm .regiProto p,.signForm .signProto p{margin-left:20px;height:18px;line-height:18px;color:#717171;}
+.regiForm .regiProto p a{color:#35a3d6;}
+.regiForm .regiProto p a:hover{color:#f35c8f;}
+.regiForm .regiBtn{margin-top:35px;width:415px;border-radius:4px;background:#f5f5f5;}
+.regiForm .regiBtn input{display: block;width: 100%;height:40px;line-height:40px;}
+.regiForm .regiToSign,.signForm .passMiss{margin-top:8px;width:100%;height:12px;text-align: right;}
+.regiForm .regiToSign a,.signForm .passMiss a{color:#35a3d6;font-size: 12px;}
+
+/*登录部分*/
+.signCnt .signCntbox{width: 100%;height:400px;margin-top:35px;}
+.signCnt .signCntLeft{/*width:418px;*/height:330px;margin:0 30px;background: url("../img/regi-phone-bg.png") no-repeat bottom center;}
+.signCnt .signCntLine{width: 2px;margin:0 10px;height:80%;background: #eee;}
+.signCnt .signCntRight{/*width:478px;*/position: relative;margin-right:42px;}
+
+.signCntLeft .code{position:relative;padding:0 138px;*zoom:1;}
+.signCntLeft .signCodeIco{display: block;width:70px;height:70px;background:url("../img/sPhone.png") 0 0;}
+.signCntLeft .signCodeImg{display: block;text-align:center;}
+.signCntLeft .signCodeImg img{width:140px;height:140px;}
+.signCntLeft .signCodelose{position:absolute;left:50%;top:70px;width:60px;height:60px;margin:0 0 0 -70px;padding:40px; background: rgba(255,255,255,0.8);}
+.signCntLeft .signCodelose a{display: block;width:50px;height:18px;padding:38px 5px 5px;border-radius: 3px;box-shadow: 0 3px 10px rgba(0,0,0,0.5);background: url("../img/sign-lose.png") top center #fff;color:#35a3d6;font-size:12px;text-align: center;}
+.signCntLeft .txt{height:30px;line-height:36px;font-size:20px;letter-spacing: 3px;text-align: center;}
+.signCntLeft .phoneTxt{height:24px;line-height: 24px;font-size: 12px;text-align: center;}
+.signCntLeft .phoneTxt a{color:#35a3d6;}
+/*登录右侧表单*/
+.signForm .signInput{margin-top:30px;border-radius: 2px;}
+.signForm .signInput.signName{margin-top:0;}
+.signForm .signInput input{width:378px;}
+.signForm .signInput.signtxt input,.regiForm .regiInput.signtxt input{float:left;display:inline;width:160px;background: #f9fafc;}
+.signForm .signInput.signtxt .signImg,.regiForm .regiInput.signtxt .signImg{display:inline-block;margin:5px 0 0 10px;border: 1px solid #eee;vertical-align: middle;}
+.signForm .signInput.signtxt .signImg img,.regiForm .regiInput.signtxt .signImg img{width:100%;height:100%;}
+.signForm .signInput.signtxt .signBtn{display:inline-block;margin:13px 0 0 10px;vertical-align: top;color:#35a3d6;font-size: 12px;}
+.signForm .signProto{margin-top:10px;}
+.signForm .signProto p{float: left;display: inline;margin-left:5px;}
+.signForm .signProto span{display: inline-block;height:18px;line-height:18px;margin-left:20px;color:#bbb;}
+.signForm .signBtn,.signForm .signenter{margin-top:10px;}
+.signForm .signBtn input,.signForm .signBtn a{display: inline-block;width:182px;height:36px;line-height:36px;border:1px solid #ccc;border-radius:2px;vertical-align: middle;text-align:center;font-size:14px;}
+.signForm .signBtn input.login{margin-right:27px;border:1px solid #0381aa;border-radius:2px;background:#00a7de;color:#fff;cursor:pointer;}
+.signForm .signBtn input.login:hover{background: #00bee7;}
+.signForm .signBtn a:hover{background: #f7f7f7;}
+.signForm .signenter a{display: inline-block;height:22px;line-height:22px;font-size:12px;color:#717171;}
+.signForm .signenter .weibo{margin-right:50px;}
+.signForm .signenter i{display: inline-block;width:22px;height:22px;margin-right:5px;background:url("../img/weiboqq.png") no-repeat 0 0;vertical-align: middle;}
+.signForm .signenter .weibo i{background-position: 0 0;}
+.signForm .signenter .qq i{background-position: 0 -41px;}
+
+/*邮箱注册*/
+.regiForm.mailForm .signtxt input{width: 250px;background: #fff;}
+.regiForm.mailForm .signtxt{margin-top:10px;}

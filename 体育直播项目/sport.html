@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="sport.css"/>
+</head>
+<body>
+<div class="sport-head" id="sport-head">
+    <span class="leftEar"> < </span>
+    <span class="rightEar"> > </span>
+    <div class="day">
+        <ul class="day-list" id="day-list">
+            <!--<li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>
+            <li><span class="dl-week">星期日</span><br/><span class="dl-time">01-03</span></li>-->
+        </ul>
+    </div>
+</div>
+<div class="sport-cnt" id="sport-cnt">
+    <!--<h2>01月26日</h2>
+    <ul class="sport-cnt-ul">
+        <li><span class="w80 info">09:00</span><span class="w140 info">NBA常规赛</span>
+            <div class="sign">
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+                <span class="sign-name txtleft">尼克斯</span>
+            </div>
+            <span class="num">107-101</span>
+            <div class="sign">
+                <span class="sign-name txtright">尼克斯</span>
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+            </div>
+            <span class="video txtright">视频集锦</span>
+        </li>
+        <li><span class="w80 info">09:00</span><span class="w140 info">NBA常规赛</span>
+            <div class="sign">
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+                <span class="sign-name txtleft">尼克斯</span>
+            </div>
+            <span class="num">107-101</span>
+            <div class="sign">
+                <span class="sign-name txtright">尼克斯</span>
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+            </div>
+            <span class="video txtright">视频集锦</span>
+        </li>
+        <li><span class="w80 info">09:00</span><span class="w140 info">NBA常规赛</span>
+            <div class="sign">
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+                <span class="sign-name txtleft">尼克斯</span>
+            </div>
+            <span class="num">107-101</span>
+            <div class="sign">
+                <span class="sign-name txtright">尼克斯</span>
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+            </div>
+            <span class="video txtright">视频集锦</span>
+        </li>
+        <li><span class="w80 info">09:00</span><span class="w140 info">NBA常规赛</span>
+            <div class="sign">
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+                <span class="sign-name txtleft">尼克斯</span>
+            </div>
+            <span class="num">107-101</span>
+            <div class="sign">
+                <span class="sign-name txtright">尼克斯</span>
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+            </div>
+            <span class="video txtright">视频集锦</span>
+        </li>
+        <li><span class="w80 info">09:00</span><span class="w140 info">NBA常规赛</span>
+            <div class="sign">
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+                <span class="sign-name txtleft">尼克斯</span>
+            </div>
+            <span class="num">107-101</span>
+            <div class="sign">
+                <span class="sign-name txtright">尼克斯</span>
+                <img src="http://mat1.gtimg.com/sports/nba/logo/1602/18.png" alt=""/>
+            </div>
+            <span class="video txtright">视频集锦</span>
+        </li>
+    </ul>-->
+</div>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="sport.js"></script>
+<script>
+    function getDate(jsonpdata){
+        //console.log(jsonpdata["data"]["data"]);
+        //筛选出本周的数据
+        bindData(jsonpdata["data"]["data"]);
+    }
+</script>
+<script src="http://matchweb.sports.qq.com/kbs/calendar?columnId=100000&callback=getDate"></script>
+</body>
+</html>

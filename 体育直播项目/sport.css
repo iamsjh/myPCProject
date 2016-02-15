@@ -1,0 +1,35 @@
+html,body,ul,li,div,h2{margin:0;padding:0;border:none}
+html,body{width:100%;height:100%;}
+ul,li{list-style: none;}
+h2{font-style: normal;font-weight: normal;}
+body{font-size:13px;font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;}
+div:after, ul:after, dl:after, .clearfix:after {content: "";display: block;clear: both; height: 0;visibility: hidden;}
+
+body{background: #f4f4f4;}
+.w80{width:80px;}
+.w140{width:140px;}
+.txtleft{text-align: left;}
+.txtright{text-align: right;}
+.sport-head,.sport-cnt .sport-cnt-ul{border:1px solid #e5e9ef;width:798px;margin:10px auto;background:#fff;overflow: hidden;}
+.sport-head{position:relative;width:728px;padding:5px 35px;*zoom:1;}
+.sport-head .day{width:728px;height:70px;overflow:hidden;}
+.sport-head .day-list{float: left;display: inline;width:728px;overflow: hidden;}
+.sport-head .day-list li{float: left;display: inline;width:80px;margin:0 12px;padding:10px 0; text-align: center;font-size:14px;cursor:pointer;}
+.sport-head .day-list li:hover,.sport-head .day-list li.cur{background: #1c90f2;color:#fff;}
+.sport-head .day-list li span{line-height: 25px;}
+.sport-head .day-list li .dl-time{font-size:18px;}
+.sport-head .leftEar,.sport-head .rightEar{position:absolute;top:0;width:35px;height:80px;line-height: 80px;text-align: center;cursor:pointer;}
+.sport-head .leftEar:hover,.sport-head .rightEar:hover{color:#1c90f2;}
+.sport-head .leftEar{left:0;}
+.sport-head .rightEar{right:0;}
+.sport-cnt{width:800px;margin:0 auto;}
+.sport-cnt h2{font-size:14px;font-weight:bold;}
+.sport-cnt .sport-cnt-ul{}
+.sport-cnt .sport-cnt-ul li{height:80px;line-height: 80px;padding:0 18px;border-bottom:1px solid #e5e9ef;}
+.sport-cnt .sport-cnt-ul li span{float:left;display:inline;height:80px;line-height: 80px;}
+.sport-cnt .sport-cnt-ul li .info{color:#a0a0a0;}
+.sport-cnt .sport-cnt-ul li .sign{float: left;display: inline;}
+.sport-cnt .sport-cnt-ul li .sign .sign-name{width:87px;margin:0 5px;font-size: 20px;}
+.sport-cnt .sport-cnt-ul li .sign img{float:left;display:inline;width:48px;height:45px;margin-top:17px;}
+.sport-cnt .sport-cnt-ul li .num{width:92px;color: #1b87e2;font-size: 20px;text-align: center;}
+.sport-cnt .sport-cnt-ul li .video{width: 158px;color: #1b87e2;}
