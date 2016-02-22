@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by Administrator on 2016/1/9.
  */
 (function () {
@@ -31,7 +31,7 @@
     searchList.onclick=function(e){//阻止搜索列表的事件冒泡
         e=e||window.event;
         e.stopPropagation();
-        e.cancelBubble=false;
+        e.cancelBubble=true;
     };
     function searchShow() {
         for (var i = 0; i < searchListAs.length; i++) {
